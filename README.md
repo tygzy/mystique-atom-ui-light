@@ -8,6 +8,10 @@ Made by __tygzy__
 
 [https://atom.io/themes/mystique-atom-syntax-light](https://atom.io/themes/mystique-atom-syntax-light), or you can search for `mystique-atom-syntax-light` in the Atom editor.
 
+# Dark theme
+
+[https://atom.io/themes/mystique-atom-ui](https://atom.io/themes/mystique-atom-ui), or you can search for `mystique-atom-ui` in the Atom editor.
+
 ### Install in the Atom editor
 
 1. Go to `Atom > Preferences...`.
