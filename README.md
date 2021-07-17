@@ -34,3 +34,7 @@ Go to `Atom > Preferences...`, then the `Themes` tab and then click the `UI Them
 # Preview
 
 ![Preview image 1](https://i.imgur.com/1Sukz0c.png)
+
+![Preview image 2](https://i.imgur.com/YeNnltu.png)
+
+![Preview image 3](https://i.imgur.com/AkuTrE4.png)
