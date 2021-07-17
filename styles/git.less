@@ -1,0 +1,95 @@
+
+// Git
+// -------------------
+
+// Used to color git status
+
+.status          { color: @text-color; }
+.status-added    { color: @text-color-success; } // green
+.status-ignored  { color: @text-color-subtle; }  // faded
+.status-modified { color: @text-color-warning; } // orange
+.status-removed  { color: @text-color-error; }   // red
+.status-renamed  { color: @text-color-info; }    // blue
+
+.icon {
+    fill: @text-color !important;
+}
+
+.github-Git {
+    border-right: 1px solid @base-border-color;
+    color: @text-color;
+}
+
+.github-StagingView-header,
+.github-CommitView-buttonWrapper,
+.github-StagingView-headerButton,
+.github-Project,
+.github-RecentCommits {
+    border-color: @base-border-color;
+}
+
+.github-CommitView-buttonWrapper {
+    border-top: 1px solid @base-border-color;
+    padding-top: 10px;
+}
+
+.github-StatusBarTile, .github-ChangedFilesCount {
+    color: @text-color-info;
+}
+
+.github-PushPull {
+    color: @text-color-success;
+}
+.github-CommitView-editor, .github-CreatePullRequestTile-message, .github-Accordion-content {
+    background-color: @syntax-bg-color;
+    border-color: @base-border-color;
+}
+
+.github-Accordion-header {
+    border-color: @base-border-color;
+}
+
+.github-Accordion--leftTitle {
+    color: @text-color;
+}
+
+.github-CommitView-editor > div > .editor {
+    background-color: @syntax-bg-color;
+}
+
+.github-CommitView-coAuthorToggle,
+.github-CommitView-expandButton.icon.icon-screen-full,
+.github-CommitView-hardwrap.hard-wrap-icons {
+    background: none;
+}
+
+.github-CommitView-coAuthorToggleIcon {
+    fill: rgba(0,0,0,1);
+}
+
+.inline-block.github-branch {
+    border-left: 1px solid @base-border-color;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+.is-selected {
+    background-color: lighten(@syntax-bg-color, 3%);
+}
+
+.github-FilePatchListView-item.is-added.is-selected {
+    background-color: lighten(@syntax-bg-color, 3%);
+    color: @text-color;
+    font-weight: bold;
+}
+
+.github-StagingView:focus .github-StagingView-group.is-focused .is-selected {
+    background-color: lighten(@syntax-bg-color, 3%) !important;
+    color: @text-color;
+}
+
+.github-StagingView-headerButton.icon.icon-move-up:focus,
+.github-StagingView-headerButton.icon.icon-move-down:focus {
+    background-color: lighten(@syntax-bg-color, 3%) !important;
+    color: @text-color;
+}
